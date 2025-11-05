@@ -7,7 +7,7 @@ DB_FILE_PATH = os.path.join(SCRIPT_DIR, 'latest.db')
 
 # add dynasties to filter, the values should be integers, NOT strings
 # example: DY_FILTER_LIST = [15, 16, 17]
-DY_FILTER_LIST = [15]
+DY_FILTER_LIST = []
 
 base_sql_query = """
 SELECT
